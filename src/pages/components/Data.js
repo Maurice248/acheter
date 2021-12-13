@@ -7,7 +7,7 @@ import * as AiIcons from 'react-icons/ai';
 export const Data = [
     {
         title: 'Home',
-        path : '/',
+        path : '/home',
         icon: <AiIcons.AiFillHome />,
         cName: 'nav-text'
     },

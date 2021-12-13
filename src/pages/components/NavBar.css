@@ -1,6 +1,6 @@
 .navbar{
-    background-color: #f5f5f5;
-    border-bottom: solid;
+    background-color: black;
+    border-bottom: solid grey;
     height: 80px;
     display:flex;
     flex-direction: row;
@@ -14,8 +14,8 @@
 }
 
 .nav-menu{
-    background-color: #060b26;
-    width: 250px;
+    background-color: black;
+    width: 325px;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -60,7 +60,7 @@
 }
 
 .navbar-toggle {
-    background-color: #060b26;
+    background-color: black;
     width: 100%;
     height: 80px;
     display: flex;
@@ -72,17 +72,49 @@ span {
     margin-left: 16px;
 }
 
-h1{
+.hea {
+    color: white;
     margin-right: 2rem;
+    text-decoration: none;
+}
+
+.hea:hover{
+    color: white;
 }
 
 .ali {
     display: flex;
-    margin-left: 11rem;
+    margin-left: 14rem;
 }
 
 .pinoy{
-    margin-left: 5.5rem;
-    margin-top: 25rem;
+    display: block;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-top: 15rem;
     font-size: 20px;
+}
+
+.fic {
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-bottom: 3%;
+}
+
+.information {
+    text-align: center;
+    color: white;
+}
+
+.space {
+    margin-bottom: 20%;
+}
+
+ul {
+    list-style-type: none;
 }

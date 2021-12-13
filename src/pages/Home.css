@@ -1,0 +1,62 @@
+.home {
+    margin-top: 0.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 90.75vh;
+    align-items: center;
+    font-style: 3rem;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid grey;
+    padding-bottom: 0%;
+    /* height: 6%; */
+}
+
+.category {
+    margin-right: 1%;
+    margin-bottom: 0.5%;
+}
+
+.cart {
+    margin-left: 1%;
+    margin-bottom: 0.5%;
+}
+
+.ser {
+    margin-bottom: 0.5%;
+    color: white;
+}
+
+.bac{
+    /* background: url('https://external-preview.redd.it/dHjLJyTmP6vKkaEOf5dYsp4zKM5MX1tfmEHpQzBgcMg.jpg?auto=webp&s=37b382d1f53a90c0285418e20413ea83237f1061'); */
+    background-color: #FDEDEC;
+    height: 100vh;
+    width: 100vw;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 40%;
+    margin-top: 1%;
+    margin-left: 4.5%;
+    border-top: grey solid;
+    border-bottom: grey solid ;
+    display: flex;
+}
+
+.sang {
+    width: 30%;
+    height: 93%;
+    border: solid green;
+    padding: 70px;
+    margin-top: 1%;
+    
+}

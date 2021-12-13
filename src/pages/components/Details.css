@@ -1,0 +1,19 @@
+.det {
+    border-bottom: grey solid;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+    height: 5.5%;
+}
+
+.BTH {
+    border: grey solid;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.BTH:hover {
+    background: lightgrey;
+    transition: all 0.3s linear;
+}

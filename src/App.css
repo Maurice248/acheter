@@ -7,10 +7,46 @@
   font-family: 'Lato';
 }
 
-.home, .transaction, .myproducts, .settings {
+.transaction, .settings {
   display: flex;
   height: 98vh;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   font-style: 3rem;
+}
+
+body {
+  font-family: "Oswald", sans-serif !important;
+}
+
+.text-title {
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: black;
+  border-radius: 0 !important;
+  border: 0.1rem solid black !important;  
+}
+
+.btn-black:hover {
+  background: black !important;
+  color: white !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: red;
+}
+
+.hto{
+  position: absolute;
+  text-align: right;
+  float: right;
 }
