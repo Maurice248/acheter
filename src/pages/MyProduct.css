@@ -1,7 +1,7 @@
 .myproducts {
     margin-top: 0.5%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     height: 90.75vh;
     font-style: 3rem;
 }
@@ -13,6 +13,7 @@
     padding-bottom: 0;
     margin-top: -0.5%;
     height: 6.5%;
+    margin-bottom: 0%;
 }
 
 

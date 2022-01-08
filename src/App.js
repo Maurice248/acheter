@@ -5,14 +5,20 @@ import Home from './pages/Home';
 import Transaction from './pages/Transaction';
 import MyProduct from './pages/MyProduct';
 import Settings from './pages/Settings';
-import Login from './pages/Login';
-import Signup from './pages/Signup';
+import Login from './pages/auth/Login';
+import Signup from './pages/auth/Signup';
 import React from 'react';
 import Cart from './pages/components/Cart/Cart';
 import Details from './pages/components/Details';
 import Default from './pages/components/Default';
 import Modal from './pages/components/Modal';
+import axios from 'axios';
 
+
+axios.defaults.baseURL = "http://localhost:8000/"
+axios.defaults.headers.post['Content-Type'] = 'application/json';
+axios.defaults.headers.post['Accept'] = 'application/json';
+axios.defaults.withCredentials = true;
 
 class App extends React.Component{
 

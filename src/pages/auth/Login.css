@@ -56,7 +56,7 @@ input, button{
 .forfor .con .group {
     display: block;
     width: 200px;
-    margin-bottom: 15px;
+    margin-bottom: 3px;
 }
 
 .con .group label {
@@ -119,6 +119,12 @@ input, button{
 
 .forfor .con .signup {
     margin-top: 2px;
+}
+
+.spat {
+    margin-left: -90px;
+    font-size: 13px;
+    color: red;
 }
 
 
